@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     try {
       // TODO: thay URL bằng endpoint của bạn (Apps Script / API)
-      const endpoint = 'https://script.google.com/macros/s/AKfycbxksHrPez3ktdHFwxQcZw6xqUxfi4uhtl9iQJZf4bj-dNJYb3gTruNlR2fS-eetHKOOCw/exec';
+      const endpoint = 'https://script.google.com/macros/s/AKfycbzz_V8KsSBZNG4W9i0RRDewANWCjVdoeiEff2kfE8uYb30q5fOBGx-yhtCdz3EpOqI1/exec';
       const res = await fetch(endpoint, {
         method: 'POST',
         headers: {'Content-Type':'application/json'},
